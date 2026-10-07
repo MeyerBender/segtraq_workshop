@@ -2,6 +2,8 @@ name: segtraq_workshop_env
 channels:
   - conda-forge
 dependencies:
+  - python=3.12
+  - pip
   - anndata=0.12.8
   - seaborn=0.13.2
   - pip:
