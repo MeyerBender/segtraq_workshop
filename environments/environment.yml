@@ -1,0 +1,10 @@
+name: segtraq_workshop_env
+channels:
+  - conda-forge
+dependencies:
+  - anndata=0.12.8
+  - seaborn=0.13.2
+  - pip:
+      - segtraq==0.0.7
+      - spatialdata==0.8.0
+      - spatialdata_plot==0.4.2
