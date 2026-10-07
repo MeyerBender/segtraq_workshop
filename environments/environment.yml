@@ -4,6 +4,10 @@ channels:
 dependencies:
   - python=3.12
   - pip
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+  - tqdm
   - anndata=0.12.8
   - seaborn=0.13.2
   - pip:
