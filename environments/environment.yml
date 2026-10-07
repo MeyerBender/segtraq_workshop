@@ -5,6 +5,7 @@ dependencies:
   - anndata=0.12.8
   - seaborn=0.13.2
   - pip:
+      - ovrlpy==1.2.1
       - segtraq==0.0.7
       - spatialdata==0.8.0
       - spatialdata_plot==0.4.2
